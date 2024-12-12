@@ -1,1 +1,67 @@
 
+L01T01:Pseudo Code                             
+
+//An algorithm that asks a user to enter a positive number repeatedly until the user enters a zero value, then determines and outputs the largest of the numbers that were input.
+
+                create variable highest_posi and set it to zero
+                request integer from user
+                if integer is less than zero
+                    print "That's a negative number"
+                if integer is more than zero
+                    if the integer is more than var highest_posi
+                        set highest_posi to this integer
+                if integer is equal to zero
+                    print highest_posi as string
+
+
+
+
+//An algorithm that asks a user to enter a positive number repeatedly until the user enters a zero value, then determines and outputs the largest of the numbers that were input.
+
+                create variable first_name and set it so an empty string
+                request string from user
+                set var first_name to the string entered from user
+                print the var first_name plus a space plus "Hello, World."
+
+            
+
+
+//An algorithm that reads an arbitrary number of integers and then returns their arithmetic average.
+
+                create an array called array_num and set it to empty
+                create variable avg and set it to empty
+                get integer from user
+                add integer to array array_num
+                set avg by adding all items of array_num together and divide this by                 the number of integers in array array_num
+                print avg as string      
+
+
+
+//An algorithm that reads a grocery list and prints out the products (in alphabetical order) that are still left to buy.
+
+                get grocery list
+                check for unchecked items on the list and add to an array called                     unbought_list_groceries
+                create var char_count and set to 1
+                create var item_counter and set to 1
+                create var item_length and set to length of characters of                            item_counter of the list
+                while char_count is < or = item_length AND item_counter is < or =                    number of items in array unbought_list_groceries
+                    if item one char_count is > than item two's char-count
+                        swap item one and two in array unbought_list_groceries
+                    if item one char_count is = to item two's char-count
+                        increase char_count by 1
+                    increase item_counter by 1
+                print unbought_list_groceries
+
+
+
+
+
+//An algorithm for the following flowchart: START - READ X,Y - S=X+Y;A=S/2;P=XxY - WRITE S,A,P - STOP
+
+                create variables X, Y, S, A and P and set them all to zero
+                read and store values for X and Y in respective variables
+                set S to X + X
+                set A to S divided by two
+                set P to X times Y
+                print var S, A and P as string and with comas in between.                 
+
