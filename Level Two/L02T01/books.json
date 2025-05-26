@@ -1,0 +1,38 @@
+[
+  {
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "year_published": 1960,
+    "genre": "Fiction"
+  },
+  {
+    "title": "1984",
+    "author": "George Orwell",
+    "year_published": 1949,
+    "genre": "Dystopian"
+  },
+  {
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "year_published": 1925,
+    "genre": "Classic"
+  },
+  {
+    "title": "Sapiens: A Brief History of Humankind",
+    "author": "Yuval Noah Harari",
+    "year_published": 2011,
+    "genre": "Non-fiction"
+  },
+  {
+    "title": "Harry Potter and the Philosopher's Stone",
+    "author": "J.K. Rowling",
+    "year_published": 1997,
+    "genre": "Fantasy"
+  },
+  {
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "year_published": 1937,
+    "genre": "Fantasy"
+  }
+]
