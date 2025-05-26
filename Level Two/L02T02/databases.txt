@@ -1,0 +1,81 @@
+
+############## L02T02 : Databases
+
+
+
+# INSTRUCTIONS : Just answer the following questions :)
+
+
+
+
+/////////////////////////////////////
+1. Define each of the following terms:
+/////////////////////////////////////
+
+	a) Data
+			→ Data are raw, unprocessed facts or values, like names, numbers, or dates, which on their own don’t have meaningful context.
+
+	b) Field
+			→ A field is a single piece of data or a category of data, like a column in a table (like "C_NAME" or "MANAGER_PHONE").
+
+	c) Record
+			→ A record is a complete set of related fields that represent a single item or entry (e.g. all the data for one customer or one project).
+
+	d) File
+			→ A file is a collection of related records stored together, such as a file containing all customer information or project details.
+
+
+
+//////////////////////////////////////////////
+2. What is a DBMS and what are its advantages?
+/////////////////////////////////////////////
+
+			A DBMS (Database Management System) is software that allows users and applications to interact with a database.
+			It manages access, storage, modification, and retrieval of data efficiently.
+
+			Advantages of a DBMS include:
+				- Better data sharing across users and applications.
+				- Improved data integration for a unified view of operations.
+				- Minimised data inconsistency via normalisation.
+				- Faster access and querying through a dedicated engine.
+				- Better decision-making due to more accurate and integrated information.
+				- Higher productivity through simplified data access and use.
+
+
+//////////////////////////////////////////////////////
+3. Explain the difference between data and information.
+/////////////////////////////////////////////////////
+
+			- Data: Unprocessed raw facts (e.g., numbers, text, dates) without context.
+			- Information: Processed or organised data that has meaning and can be used for decision-making (e.g., monthly sales totals).
+
+
+
+////////////////////
+4. What is metadata?
+///////////////////
+
+			Metadata is data about data. It describes the characteristics and structure of the data,
+			such as data types, length, relationships, or rules (e.g., "field X must be numeric",
+			or "C_NAME is a text field for customer names").
+
+
+///////////////////////////////////////////////////////
+5. Answer the following based on the given project file:
+///////////////////////////////////////////////////////
+
+PROJECT_CODE | PROJECT_MANAGER | MANAGER_PHONE | MANAGER_ADDRESS | PROJECT_BID_PRICE
+-------------|------------------|----------------|------------------|--------------------
+21-5U        | Holly Parker     | 33-5-592000506 | 180 Boulevard du General, Paris, 64700 | $13,179,975.00
+21-7Y        | Jane Grant       | 0181-898-9909  | 218 Clark Blvd, London, NW3, TRY         | $45,423,415.00
+25-9T        | George Dorts     | 0181-227-1245  | 124 River Dr, London, N6, 7YU            | $78,287,312.00
+29-7P        | Holly Parker     | 33-5-592000506 | 180 Boulevard du General, Paris, 64700   | $20,883,467.00
+
+	e) How many records does the file contain?
+			→ 4 records (each row in the table is one record)
+
+	f) How many fields are there per record?
+			→ 5 fields per record (being PROJECT_CODE, PROJECT_MANAGER, MANAGER_PHONE, MANAGER_ADDRESS, PROJECT_BID_PRICE)
+
+
+
