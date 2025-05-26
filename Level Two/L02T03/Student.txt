@@ -1,0 +1,71 @@
+L02T03 : SQL
+
+
+INSTRUCTION: 1. Open the JDoodle SQL IDE: https://www.jdoodle.com/execute-sql-online/
+             2. Create a table called `Student` with the following fields and data types:
+             3. Insert the data rows into the `Student` table:
+             4. Write a SELECT query to return all records where COURSE_CODE is '305'.
+             5. Write an UPDATE query to change the COURSE_CODE to '304' for the student with STU_NUM equal to '07'.
+             6. Write a DELETE query to remove the row for Jamie Lannister.
+             7. Write an UPDATE query to change PROJ_NUM to 14 for students who:
+                    - started before 2016-01-01
+                    - and have COURSE_CODE >= '201'
+             8. Write a DROP TABLE statement to completely delete the Student table.
+             9. Copy all your tested SQL code into a file named 'Student.txt'
+
+main goal is to demonstrate that i can use basic sql commands to create a table, insert data, and run queries.  
+i will begin by writing a create table statement using the correct data types and setting a primary key.  
+then, i will add multiple student records using insert statements.  
+after that, i’ll run select, update, and delete queries to test my understanding of how to work with the data.  
+i’ll use the jdoodle sql ide to test everything before copying the final code into a text file for submission.  
+i plan to take it step-by-step, making sure each command works before moving on to the next part.  
+
+
+-- 1. Create the Student table with appropriate data types and constraints
+CREATE TABLE Student (
+    STU_NUM CHAR(6) PRIMARY KEY,
+    STU_SNAME VARCHAR(15),
+    STU_FNAME VARCHAR(15),
+    STU_INITIAL CHAR(1),
+    STU_STARTDATE DATE,
+    COURSE_CODE CHAR(3),
+    PROJ_NUM INT(2)
+);
+
+-- 2. Insert data rows into the Student table
+INSERT INTO Student (STU_NUM, STU_SNAME, STU_FNAME, STU_INITIAL, STU_STARTDATE, COURSE_CODE, PROJ_NUM)
+VALUES
+('01', 'Snow', 'Jon', 'E', '2014-04-05', '201', 6),
+('02', 'Stark', 'Arya', 'C', '2017-07-12', '305', 11),
+('03', 'Lannister', 'Jamie', 'C', '2012-09-05', '101', 2),
+('04', 'Lannister', 'Cercei', 'J', '2012-09-05', '101', 2),
+('05', 'Greyjoy', 'Theon', 'I', '2015-12-09', '402', 14),
+('06', 'Tyrell', 'Margaery', 'Y', '2017-07-12', '305', 10),
+('07', 'Baratheon', 'Tommen', 'R', '2019-06-13', '201', 5);
+
+-- 3. Retrieve all records with a COURSE_CODE of 305
+SELECT * FROM Student
+WHERE COURSE_CODE = '305';
+
+-- 4. Update course code to 304 for the student with student number 07
+UPDATE Student
+SET COURSE_CODE = '304'
+WHERE STU_NUM = '07';
+
+-- 5. Delete the row for Jamie Lannister with exact matching criteria
+DELETE FROM Student
+WHERE STU_SNAME = 'Lannister'
+AND STU_FNAME = 'Jamie'
+AND STU_STARTDATE = '2012-09-05'
+AND COURSE_CODE = '101'
+AND PROJ_NUM = 2;
+
+-- 6. Update PROJ_NUM to 14 for students who started before 2016-01-01 and have COURSE_CODE >= 201
+UPDATE Student
+SET PROJ_NUM = 14
+WHERE STU_STARTDATE < '2016-01-01'
+AND COURSE_CODE >= '201';
+
+-- 7. Drop the Student table entirely
+DROP TABLE Student;
+
