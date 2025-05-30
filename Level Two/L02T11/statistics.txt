@@ -1,0 +1,43 @@
+STATISTICS TASK - COMPULSORY TASK 1
+
+1. MEAN, MEDIAN OR MODE?
+
+- You are doing population statistics. You are asked to give an estimate
+	of the typical income of a single person in the country. There is one
+	snag: wealth distribution is out of whack, and 10% of the population
+	holds 70% of the nation’s wealth.
+  ---Use the MEDIAN.
+
+- You are running a restaurant, and you are reviewing your menu. You
+	have a list of all orders over the last six months. You are trying to find
+	out which item you should keep based on what customers seem to
+	like the most.
+  ---Use the MODE.
+
+- You have been buying electricity once a month for the first six months
+	of the year. You are trying to budget your electricity for the rest of the
+	year and therefore need to estimate how much you will spend for the
+	remainder of the year.
+  ---Use the MEAN.
+
+- You work in healthcare insurance. You are asked to provide an estimate
+	of the typical amount of money spent on healthcare. This is taking into
+	account the fact that there are a few people who spend a large
+	amount of money on medical healthcare due to major issues.
+  ---Use the MEDIAN.
+
+2. VARIANCE OR STANDARD DEVIATION?
+
+- You are choosing a new Internet provider. You find two providers with
+	the same mean speed, but you want to have a more stable connection.
+	You get a list of all reported speeds over the last month and are trying
+	to find the provider that doesn’t move too much from the mean value.
+  ---Use VARIANCE.
+
+- You are going on holiday to Mauritius. You need to find a shuttle from
+	the airport to your hotel, but you are worried about being overcharged
+	or undercharged (being undercharged might mean that you get
+	unreliable transport). You get a list of all available shuttle service prices
+	and need to find out which services, if any, are overcharging or
+	undercharging.
+  ---Use STANDARD DEVIATION. 

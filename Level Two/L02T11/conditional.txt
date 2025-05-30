@@ -1,0 +1,28 @@
+CONDITIONAL PROBABILITY TASK - COMPULSORY TASK 2
+
+1. Risk analysis insurer:
+
+- P(B) = P(driver is under 25) = 0.10
+- P(A and B) = P(driver had accident AND is under 25) = 0.05
+- P(A|B) = 0.05 / 0.10 = 0.5 (50% chance of accident if under 25)
+
+2. Coin flip game:
+
+- First flip is heads, now find P(heads again) = 0.5
+- Flips are independent, so probability doesn't change.
+
+3. Maths and CS result:
+
+- P(B) = P(took Maths) = 0.60
+- P(A and B) = P(took Maths AND scored 80%) = 0.30
+- P(A|B) = 0.30 / 0.60 = 0.5
+
+4. Bayes Theorem – COVID test case:
+
+- H = You actually have COVID
+- E = You tested positive
+
+- P(H) = 10 / 100 = 0.1
+- P(E|H) = 8 / 10 = 0.8
+- P(E) = (8 + 2) / 100 = 0.1
+- P(H|E) = (0.8 × 0.1) / 0.1 = 0.8 (80% chance you're actually positive)
